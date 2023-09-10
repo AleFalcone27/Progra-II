@@ -1,0 +1,15 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\bin\Debug\net6.0\Guia - Conceptos basicos.exe
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\bin\Debug\net6.0\Guia - Conceptos basicos.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\bin\Debug\net6.0\Guia - Conceptos basicos.runtimeconfig.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\bin\Debug\net6.0\Guia - Conceptos basicos.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\bin\Debug\net6.0\Guia - Conceptos basicos.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\refint\Guia - Conceptos basicos.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\Guia - Conceptos basicos.genruntimeconfig.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Guia - Conceptos basicos\obj\Debug\net6.0\ref\Guia - Conceptos basicos.dll

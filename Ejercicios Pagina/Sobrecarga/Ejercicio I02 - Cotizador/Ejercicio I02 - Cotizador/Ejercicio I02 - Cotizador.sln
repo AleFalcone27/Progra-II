@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio I02 - Cotizador", "Ejercicio I02 - Cotizador.csproj", "{FF178F30-D82C-4641-8DD4-785486D0C179}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billetes", "..\Entidades\Billetes.csproj", "{DB25892A-3C13-46FD-B8E0-908961B43172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF178F30-D82C-4641-8DD4-785486D0C179}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF178F30-D82C-4641-8DD4-785486D0C179}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF178F30-D82C-4641-8DD4-785486D0C179}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF178F30-D82C-4641-8DD4-785486D0C179}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB25892A-3C13-46FD-B8E0-908961B43172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB25892A-3C13-46FD-B8E0-908961B43172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB25892A-3C13-46FD-B8E0-908961B43172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB25892A-3C13-46FD-B8E0-908961B43172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B472BE5-4213-4A27-92CF-FB8BE1816376}
+	EndGlobalSection
+EndGlobal

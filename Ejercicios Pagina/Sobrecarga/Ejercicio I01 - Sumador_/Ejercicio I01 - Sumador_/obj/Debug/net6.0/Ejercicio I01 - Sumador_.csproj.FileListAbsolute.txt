@@ -1,0 +1,18 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Ejercicio I01 - Sumador_.exe
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Ejercicio I01 - Sumador_.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Ejercicio I01 - Sumador_.runtimeconfig.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Ejercicio I01 - Sumador_.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Ejercicio I01 - Sumador_.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\bin\Debug\net6.0\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.csproj.CopyComplete
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\refint\Ejercicio I01 - Sumador_.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\Ejercicio I01 - Sumador_.genruntimeconfig.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Ejercicios Pagina\Sobrecarga\Ejercicio I01 - Sumador_\Ejercicio I01 - Sumador_\obj\Debug\net6.0\ref\Ejercicio I01 - Sumador_.dll

@@ -1,0 +1,12 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\bin\Debug\net6.0\Entidades1.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\bin\Debug\net6.0\Entidades1.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\bin\Debug\net6.0\Entidades1.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\refint\Entidades1.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\Entidades1.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Labo y Prgra II\Entidades1\obj\Debug\net6.0\ref\Entidades1.dll
