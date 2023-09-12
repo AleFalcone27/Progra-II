@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio A01 - Fahrenheit 451", "Ejercicio A01 - Fahrenheit 451.csproj", "{811D9D57-9F94-4662-83FE-85A29DF66D08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "..\Entidades\Entidades.csproj", "{58234842-0002-4B38-B8C5-845AB64A44A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{811D9D57-9F94-4662-83FE-85A29DF66D08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{811D9D57-9F94-4662-83FE-85A29DF66D08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{811D9D57-9F94-4662-83FE-85A29DF66D08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{811D9D57-9F94-4662-83FE-85A29DF66D08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58234842-0002-4B38-B8C5-845AB64A44A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58234842-0002-4B38-B8C5-845AB64A44A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58234842-0002-4B38-B8C5-845AB64A44A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58234842-0002-4B38-B8C5-845AB64A44A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDDA244D-2654-43AE-8EDE-1934A3B07BFB}
+	EndGlobalSection
+EndGlobal

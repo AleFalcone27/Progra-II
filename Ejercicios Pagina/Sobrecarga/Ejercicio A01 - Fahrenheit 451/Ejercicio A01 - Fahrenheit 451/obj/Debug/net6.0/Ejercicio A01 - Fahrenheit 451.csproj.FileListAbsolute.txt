@@ -1,0 +1,15 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\bin\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.exe
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\bin\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\bin\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.runtimeconfig.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\bin\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\bin\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\refint\Ejercicio A01 - Fahrenheit 451.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\Ejercicio A01 - Fahrenheit 451.genruntimeconfig.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Sobrecarga\Ejercicio A01 - Fahrenheit 451\Ejercicio A01 - Fahrenheit 451\obj\Debug\net6.0\ref\Ejercicio A01 - Fahrenheit 451.dll
