@@ -1,0 +1,11 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\bin\Debug\Ejercicio I02 - Registrate.exe.config
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\bin\Debug\Ejercicio I02 - Registrate.exe
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\bin\Debug\Ejercicio I02 - Registrate.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.csproj.SuggestedBindingRedirects.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio_I02___Registrate.Properties.Resources.resources
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.csproj.GenerateResource.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.exe
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio I02 - Registrate.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Win Forms\Ejercicio I02 - Registrate\Ejercicio I02 - Registrate\obj\Debug\Ejercicio_I02___Registrate.Registro.resources

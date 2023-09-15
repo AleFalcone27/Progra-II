@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Clase 2\\Clase 2.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Clase 2\\Clase 2.csproj",
       "projectName": "Clase 2",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Clase 2\\Clase 2.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Clase 2\\Clase 2.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Clase 2\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Clase 2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
