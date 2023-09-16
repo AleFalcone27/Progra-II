@@ -1,22 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace Ejercicio_Integrador
 {
-    internal static class FrmCalculadora
+    public partial class FrmCalculadora : Form
     {
-        /// <summary>
-        /// Punto de entrada principal para la aplicación.
-        /// </summary>
-        [STAThread]
-        static void Main()
+        Operacion calculadora;
+        Numeracion primerOperando;
+        Numeracion segundoOperando;
+        Numeracion resultado;
+        ESistema sistema;
+
+        public FrmCalculadora()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MiCalculadora());
+            InitializeComponent();
         }
+
+        private void btnLimpiar_Click(object sender, EventArgs e)
+        {
+            this.txtNumero1.Clear();
+            this.txtNumero2.Clear();
+            this.operacion.Text = "";
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            DialogResult salir = MessageBox.Show("Desea cerrar la calculadora?", "Cierre", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
+
+            if (salir == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
     }
 }

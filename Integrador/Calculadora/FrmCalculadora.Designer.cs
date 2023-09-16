@@ -3,7 +3,7 @@ using System.Windows.Forms.VisualStyles;
 
 namespace Ejercicio_Integrador
 {
-    partial class MiCalculadora
+    partial class FrmCalculadora
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -31,20 +31,20 @@ namespace Ejercicio_Integrador
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MiCalculadora));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmCalculadora));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.primerOperando = new System.Windows.Forms.TextBox();
-            this.segundoOperando = new System.Windows.Forms.TextBox();
+            this.txtNumero2 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox = new System.Windows.Forms.GroupBox();
             this.radioButtonBinario = new System.Windows.Forms.RadioButton();
             this.radioButtonDecimal = new System.Windows.Forms.RadioButton();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.Operar = new System.Windows.Forms.Button();
-            this.Cerrar = new System.Windows.Forms.Button();
-            this.Limpiar = new System.Windows.Forms.Button();
+            this.operacion = new System.Windows.Forms.ComboBox();
+            this.btnOperar = new System.Windows.Forms.Button();
+            this.btnCerrar = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.txtNumero1 = new System.Windows.Forms.TextBox();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -78,27 +78,19 @@ namespace Ejercicio_Integrador
             this.label3.BackColor = System.Drawing.Color.LightGray;
             this.label3.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label3.Location = new System.Drawing.Point(304, 169);
+            this.label3.Location = new System.Drawing.Point(308, 169);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(156, 25);
+            this.label3.Size = new System.Drawing.Size(180, 25);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Primer operando";
+            this.label3.Text = "Segundo operando";
             // 
-            // primerOperando
+            // txtNumero2
             // 
-            this.primerOperando.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.primerOperando.Location = new System.Drawing.Point(12, 207);
-            this.primerOperando.Name = "primerOperando";
-            this.primerOperando.Size = new System.Drawing.Size(158, 30);
-            this.primerOperando.TabIndex = 1;
-            // 
-            // segundoOperando
-            // 
-            this.segundoOperando.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.segundoOperando.Location = new System.Drawing.Point(304, 207);
-            this.segundoOperando.Name = "segundoOperando";
-            this.segundoOperando.Size = new System.Drawing.Size(158, 30);
-            this.segundoOperando.TabIndex = 5;
+            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtNumero2.Location = new System.Drawing.Point(320, 206);
+            this.txtNumero2.Name = "txtNumero2";
+            this.txtNumero2.Size = new System.Drawing.Size(158, 30);
+            this.txtNumero2.TabIndex = 5;
             // 
             // label4
             // 
@@ -106,7 +98,7 @@ namespace Ejercicio_Integrador
             this.label4.BackColor = System.Drawing.Color.LightGray;
             this.label4.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.label4.Location = new System.Drawing.Point(186, 169);
+            this.label4.Location = new System.Drawing.Point(193, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(103, 25);
             this.label4.TabIndex = 5;
@@ -119,9 +111,9 @@ namespace Ejercicio_Integrador
             this.groupBox.Controls.Add(this.radioButtonBinario);
             this.groupBox.Controls.Add(this.radioButtonDecimal);
             this.groupBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.groupBox.Location = new System.Drawing.Point(98, 87);
+            this.groupBox.Location = new System.Drawing.Point(111, 87);
             this.groupBox.Name = "groupBox";
-            this.groupBox.Size = new System.Drawing.Size(262, 61);
+            this.groupBox.Size = new System.Drawing.Size(262, 65);
             this.groupBox.TabIndex = 6;
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Representar resultado en:";
@@ -151,69 +143,79 @@ namespace Ejercicio_Integrador
             this.radioButtonDecimal.Text = "Decimal";
             this.radioButtonDecimal.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // operacion
             // 
-            this.comboBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.comboBox1.ForeColor = System.Drawing.Color.Black;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.operacion.BackColor = System.Drawing.SystemColors.Window;
+            this.operacion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.operacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.operacion.ForeColor = System.Drawing.Color.Black;
+            this.operacion.FormattingEnabled = true;
+            this.operacion.Items.AddRange(new object[] {
             "",
             "+ ",
             "-",
             "/",
             "*"});
-            this.comboBox1.Location = new System.Drawing.Point(184, 207);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(105, 32);
-            this.comboBox1.TabIndex = 3;
+            this.operacion.Location = new System.Drawing.Point(191, 206);
+            this.operacion.Name = "operacion";
+            this.operacion.Size = new System.Drawing.Size(105, 32);
+            this.operacion.TabIndex = 3;
             // 
-            // Operar
+            // btnOperar
             // 
-            this.Operar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Operar.Location = new System.Drawing.Point(12, 243);
-            this.Operar.Name = "Operar";
-            this.Operar.Size = new System.Drawing.Size(156, 35);
-            this.Operar.TabIndex = 2;
-            this.Operar.Text = "Operar";
-            this.Operar.UseVisualStyleBackColor = true;
+            this.btnOperar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnOperar.Location = new System.Drawing.Point(12, 243);
+            this.btnOperar.Name = "btnOperar";
+            this.btnOperar.Size = new System.Drawing.Size(156, 35);
+            this.btnOperar.TabIndex = 2;
+            this.btnOperar.Text = "Operar";
+            this.btnOperar.UseVisualStyleBackColor = true;
             // 
-            // Cerrar
+            // btnCerrar
             // 
-            this.Cerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Cerrar.Location = new System.Drawing.Point(304, 243);
-            this.Cerrar.Name = "Cerrar";
-            this.Cerrar.Size = new System.Drawing.Size(156, 35);
-            this.Cerrar.TabIndex = 6;
-            this.Cerrar.Text = "Cerrar";
-            this.Cerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCerrar.Location = new System.Drawing.Point(320, 242);
+            this.btnCerrar.Name = "btnCerrar";
+            this.btnCerrar.Size = new System.Drawing.Size(156, 35);
+            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.Text = "Cerrar";
+            this.btnCerrar.UseVisualStyleBackColor = true;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
-            // Limpiar
+            // btnLimpiar
             // 
-            this.Limpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.Limpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Limpiar.Location = new System.Drawing.Point(184, 245);
-            this.Limpiar.Name = "Limpiar";
-            this.Limpiar.Size = new System.Drawing.Size(105, 35);
-            this.Limpiar.TabIndex = 4;
-            this.Limpiar.Text = "Limpiar";
-            this.Limpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiar.Location = new System.Drawing.Point(191, 243);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(105, 35);
+            this.btnLimpiar.TabIndex = 4;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
-            // MiCalculadora
+            // txtNumero1
+            // 
+            this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtNumero1.Location = new System.Drawing.Point(10, 206);
+            this.txtNumero1.Name = "txtNumero1";
+            this.txtNumero1.Size = new System.Drawing.Size(158, 30);
+            this.txtNumero1.TabIndex = 7;
+            // 
+            // FrmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(474, 287);
-            this.Controls.Add(this.Limpiar);
-            this.Controls.Add(this.Cerrar);
-            this.Controls.Add(this.Operar);
-            this.Controls.Add(this.comboBox1);
+            this.ClientSize = new System.Drawing.Size(500, 291);
+            this.Controls.Add(this.txtNumero1);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnCerrar);
+            this.Controls.Add(this.btnOperar);
+            this.Controls.Add(this.operacion);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.segundoOperando);
-            this.Controls.Add(this.primerOperando);
+            this.Controls.Add(this.txtNumero2);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -223,9 +225,10 @@ namespace Ejercicio_Integrador
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MiCalculadora";
+            this.Name = "FrmCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora Falcone Alejo";
+            this.Load += new System.EventHandler(this.FrmCalculadora_Load);
             this.groupBox.ResumeLayout(false);
             this.groupBox.PerformLayout();
             this.ResumeLayout(false);
@@ -238,16 +241,16 @@ namespace Ejercicio_Integrador
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox primerOperando;
-        private System.Windows.Forms.TextBox segundoOperando;
+        private System.Windows.Forms.TextBox txtNumero2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox operacion;
         private System.Windows.Forms.RadioButton radioButtonDecimal;
         private System.Windows.Forms.RadioButton radioButtonBinario;
-        private System.Windows.Forms.Button Operar;
-        private System.Windows.Forms.Button Cerrar;
-        private System.Windows.Forms.Button Limpiar;
+        private System.Windows.Forms.Button btnOperar;
+        private System.Windows.Forms.Button btnCerrar;
+        private System.Windows.Forms.Button btnLimpiar;
+        private TextBox txtNumero1;
     }
 }
 
