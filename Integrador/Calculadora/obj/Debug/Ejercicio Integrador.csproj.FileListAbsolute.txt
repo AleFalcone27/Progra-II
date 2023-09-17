@@ -20,3 +20,6 @@ C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\o
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.exe
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.pdb
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio_Integrador.FrmCalculadora.resources
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.CopyComplete

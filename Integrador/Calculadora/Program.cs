@@ -20,8 +20,5 @@ namespace Ejercicio_Integrador
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FrmCalculadora());
         }
-
-
-
     }
 }

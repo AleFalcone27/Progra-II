@@ -46,7 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entidades\ESistema.cs" />
     <Compile Include="FrmCalculadora.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,8 +53,6 @@
       <DependentUpon>FrmCalculadora.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
-    <Compile Include="Entidades\Numeracion.cs" />
-    <Compile Include="Entidades\Operacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmCalculadora.resx">
       <DependentUpon>FrmCalculadora.cs</DependentUpon>
@@ -82,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entidades\Entidades\Entidades.csproj">
+      <Project>{668b7b0f-b437-4f82-bb1c-cc1990000129}</Project>
+      <Name>Entidades</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

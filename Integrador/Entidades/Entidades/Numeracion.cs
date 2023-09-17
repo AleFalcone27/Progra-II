@@ -10,13 +10,12 @@ namespace Entidades
         private double valorNumerico;
 
         public ESistema Sistema { get { return this.sistema; } }
-        public string Valor { get { return this.Valor.ToString(); } }
+        public string Valor { get { return this.valorNumerico.ToString(); } }
 
 
         // Constructores
         public Numeracion(double valor, ESistema sistema)
         {
-            
             InicializarValores(valor.ToString(), sistema);
         }
 

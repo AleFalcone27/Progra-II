@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -43,20 +44,20 @@ namespace Entidades
         }
 
         // Metodos
-
-        //public Numeracion Operar(char operador)
-        //{
-        //    //Switch que deterimna la operacion a relizar por defecto se realiza una suma
-
-        //    switch (operador)
-        //    {
-                
-                    
-
-        //    }
-
-        //}
-
+        public Numeracion Operar(char operador)
+        {
+            switch (operador)
+            {
+                case '/':
+                    return new Numeracion ((this.primerOperando / this.segundoOperando), ESistema.Decimal);
+                case '*':
+                    return new Numeracion((this.primerOperando * this.segundoOperando), ESistema.Decimal);
+                case '-':
+                    return new Numeracion((this.primerOperando - this.segundoOperando), ESistema.Decimal);
+                default:
+                    return new Numeracion((this.primerOperando + this.segundoOperando), ESistema.Decimal);
+            }
+        }
     }
 }
 

@@ -23,6 +23,11 @@ namespace Ejercicio_Integrador
         {
             InitializeComponent();
         }
+        private void FrmCalculadora_Load(object sender, EventArgs e)
+        {
+            this.operacion.DataSource = new object[] { "",'+','-','/','*'};
+
+        }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
@@ -38,6 +43,23 @@ namespace Ejercicio_Integrador
             if (salir == DialogResult.Yes)
             {
                 Application.Exit();
+            }
+        }
+
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            Operacion Op = new Operacion(new Numeracion(txtNumero1.Text, ESistema.Decimal), new Numeracion (txtNumero2.Text, ESistema.Decimal));
+            // Cambiar esto 
+            if (operacion.Text != null)
+            {
+                char revalido;
+
+                bool res = char.TryParse(operacion.Text, out revalido);
+
+                Numeracion resFinal = Op.Operar(revalido);
+
+                MessageBox.Show(resFinal.Valor);
             }
         }
 

@@ -90,7 +90,7 @@ namespace Ejercicio_Integrador
             this.txtNumero2.Location = new System.Drawing.Point(320, 206);
             this.txtNumero2.Name = "txtNumero2";
             this.txtNumero2.Size = new System.Drawing.Size(158, 30);
-            this.txtNumero2.TabIndex = 5;
+            this.txtNumero2.TabIndex = 2;
             // 
             // label4
             // 
@@ -125,7 +125,7 @@ namespace Ejercicio_Integrador
             this.radioButtonBinario.Location = new System.Drawing.Point(150, 28);
             this.radioButtonBinario.Name = "radioButtonBinario";
             this.radioButtonBinario.Size = new System.Drawing.Size(57, 17);
-            this.radioButtonBinario.TabIndex = 6;
+            this.radioButtonBinario.TabIndex = 4;
             this.radioButtonBinario.TabStop = true;
             this.radioButtonBinario.Text = "Binario";
             this.radioButtonBinario.UseVisualStyleBackColor = false;
@@ -138,7 +138,7 @@ namespace Ejercicio_Integrador
             this.radioButtonDecimal.Location = new System.Drawing.Point(52, 28);
             this.radioButtonDecimal.Name = "radioButtonDecimal";
             this.radioButtonDecimal.Size = new System.Drawing.Size(63, 17);
-            this.radioButtonDecimal.TabIndex = 8;
+            this.radioButtonDecimal.TabIndex = 3;
             this.radioButtonDecimal.TabStop = true;
             this.radioButtonDecimal.Text = "Decimal";
             this.radioButtonDecimal.UseVisualStyleBackColor = false;
@@ -150,16 +150,10 @@ namespace Ejercicio_Integrador
             this.operacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
             this.operacion.ForeColor = System.Drawing.Color.Black;
             this.operacion.FormattingEnabled = true;
-            this.operacion.Items.AddRange(new object[] {
-            "",
-            "+ ",
-            "-",
-            "/",
-            "*"});
             this.operacion.Location = new System.Drawing.Point(191, 206);
             this.operacion.Name = "operacion";
             this.operacion.Size = new System.Drawing.Size(105, 32);
-            this.operacion.TabIndex = 3;
+            this.operacion.TabIndex = 1;
             // 
             // btnOperar
             // 
@@ -167,9 +161,10 @@ namespace Ejercicio_Integrador
             this.btnOperar.Location = new System.Drawing.Point(12, 243);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(156, 35);
-            this.btnOperar.TabIndex = 2;
+            this.btnOperar.TabIndex = 5;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
+            this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
             // 
             // btnCerrar
             // 
@@ -177,7 +172,7 @@ namespace Ejercicio_Integrador
             this.btnCerrar.Location = new System.Drawing.Point(320, 242);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(156, 35);
-            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.TabIndex = 7;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -189,7 +184,7 @@ namespace Ejercicio_Integrador
             this.btnLimpiar.Location = new System.Drawing.Point(191, 243);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(105, 35);
-            this.btnLimpiar.TabIndex = 4;
+            this.btnLimpiar.TabIndex = 6;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -200,7 +195,7 @@ namespace Ejercicio_Integrador
             this.txtNumero1.Location = new System.Drawing.Point(10, 206);
             this.txtNumero1.Name = "txtNumero1";
             this.txtNumero1.Size = new System.Drawing.Size(158, 30);
-            this.txtNumero1.TabIndex = 7;
+            this.txtNumero1.TabIndex = 0;
             // 
             // FrmCalculadora
             // 
