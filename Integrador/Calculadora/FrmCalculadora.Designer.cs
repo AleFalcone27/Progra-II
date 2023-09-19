@@ -35,16 +35,16 @@ namespace Ejercicio_Integrador
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtNumero2 = new System.Windows.Forms.TextBox();
+            this.txtSegundoOperador = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox = new System.Windows.Forms.GroupBox();
-            this.radioButtonBinario = new System.Windows.Forms.RadioButton();
-            this.radioButtonDecimal = new System.Windows.Forms.RadioButton();
+            this.rdbBinario = new System.Windows.Forms.RadioButton();
+            this.rdbDecimal = new System.Windows.Forms.RadioButton();
             this.operacion = new System.Windows.Forms.ComboBox();
             this.btnOperar = new System.Windows.Forms.Button();
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
-            this.txtNumero1 = new System.Windows.Forms.TextBox();
+            this.txtPrimerOperador = new System.Windows.Forms.TextBox();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,13 +84,14 @@ namespace Ejercicio_Integrador
             this.label3.TabIndex = 2;
             this.label3.Text = "Segundo operando";
             // 
-            // txtNumero2
+            // txtSegundoOperador
             // 
-            this.txtNumero2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txtNumero2.Location = new System.Drawing.Point(320, 206);
-            this.txtNumero2.Name = "txtNumero2";
-            this.txtNumero2.Size = new System.Drawing.Size(158, 30);
-            this.txtNumero2.TabIndex = 2;
+            this.txtSegundoOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtSegundoOperador.Location = new System.Drawing.Point(320, 206);
+            this.txtSegundoOperador.Name = "txtSegundoOperador";
+            this.txtSegundoOperador.Size = new System.Drawing.Size(158, 30);
+            this.txtSegundoOperador.TabIndex = 2;
+            this.txtSegundoOperador.TextChanged += new System.EventHandler(this.txtSegundoOperador_TextChanged);
             // 
             // label4
             // 
@@ -108,8 +109,8 @@ namespace Ejercicio_Integrador
             // 
             this.groupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)));
             this.groupBox.BackColor = System.Drawing.Color.LightGray;
-            this.groupBox.Controls.Add(this.radioButtonBinario);
-            this.groupBox.Controls.Add(this.radioButtonDecimal);
+            this.groupBox.Controls.Add(this.rdbBinario);
+            this.groupBox.Controls.Add(this.rdbDecimal);
             this.groupBox.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.groupBox.Location = new System.Drawing.Point(111, 87);
             this.groupBox.Name = "groupBox";
@@ -118,30 +119,32 @@ namespace Ejercicio_Integrador
             this.groupBox.TabStop = false;
             this.groupBox.Text = "Representar resultado en:";
             // 
-            // radioButtonBinario
+            // rdbBinario
             // 
-            this.radioButtonBinario.AutoSize = true;
-            this.radioButtonBinario.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.radioButtonBinario.Location = new System.Drawing.Point(150, 28);
-            this.radioButtonBinario.Name = "radioButtonBinario";
-            this.radioButtonBinario.Size = new System.Drawing.Size(57, 17);
-            this.radioButtonBinario.TabIndex = 4;
-            this.radioButtonBinario.TabStop = true;
-            this.radioButtonBinario.Text = "Binario";
-            this.radioButtonBinario.UseVisualStyleBackColor = false;
+            this.rdbBinario.AutoSize = true;
+            this.rdbBinario.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.rdbBinario.Location = new System.Drawing.Point(150, 28);
+            this.rdbBinario.Name = "rdbBinario";
+            this.rdbBinario.Size = new System.Drawing.Size(57, 17);
+            this.rdbBinario.TabIndex = 4;
+            this.rdbBinario.TabStop = true;
+            this.rdbBinario.Text = "Binario";
+            this.rdbBinario.UseVisualStyleBackColor = false;
+            this.rdbBinario.CheckedChanged += new System.EventHandler(this.rdbBinario_CheckedChanged);
             // 
-            // radioButtonDecimal
+            // rdbDecimal
             // 
-            this.radioButtonDecimal.AutoSize = true;
-            this.radioButtonDecimal.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.radioButtonDecimal.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.radioButtonDecimal.Location = new System.Drawing.Point(52, 28);
-            this.radioButtonDecimal.Name = "radioButtonDecimal";
-            this.radioButtonDecimal.Size = new System.Drawing.Size(63, 17);
-            this.radioButtonDecimal.TabIndex = 3;
-            this.radioButtonDecimal.TabStop = true;
-            this.radioButtonDecimal.Text = "Decimal";
-            this.radioButtonDecimal.UseVisualStyleBackColor = false;
+            this.rdbDecimal.AutoSize = true;
+            this.rdbDecimal.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.rdbDecimal.CheckAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rdbDecimal.Location = new System.Drawing.Point(52, 28);
+            this.rdbDecimal.Name = "rdbDecimal";
+            this.rdbDecimal.Size = new System.Drawing.Size(63, 17);
+            this.rdbDecimal.TabIndex = 3;
+            this.rdbDecimal.TabStop = true;
+            this.rdbDecimal.Text = "Decimal";
+            this.rdbDecimal.UseVisualStyleBackColor = false;
+            this.rdbDecimal.CheckedChanged += new System.EventHandler(this.rdbDecimal_CheckedChanged);
             // 
             // operacion
             // 
@@ -189,13 +192,14 @@ namespace Ejercicio_Integrador
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
             // 
-            // txtNumero1
+            // txtPrimerOperador
             // 
-            this.txtNumero1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
-            this.txtNumero1.Location = new System.Drawing.Point(10, 206);
-            this.txtNumero1.Name = "txtNumero1";
-            this.txtNumero1.Size = new System.Drawing.Size(158, 30);
-            this.txtNumero1.TabIndex = 0;
+            this.txtPrimerOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F);
+            this.txtPrimerOperador.Location = new System.Drawing.Point(10, 206);
+            this.txtPrimerOperador.Name = "txtPrimerOperador";
+            this.txtPrimerOperador.Size = new System.Drawing.Size(158, 30);
+            this.txtPrimerOperador.TabIndex = 0;
+            this.txtPrimerOperador.TextChanged += new System.EventHandler(this.txtPrimerOperador_TextChanged);
             // 
             // FrmCalculadora
             // 
@@ -203,14 +207,14 @@ namespace Ejercicio_Integrador
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(500, 291);
-            this.Controls.Add(this.txtNumero1);
+            this.Controls.Add(this.txtPrimerOperador);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnOperar);
             this.Controls.Add(this.operacion);
             this.Controls.Add(this.groupBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.txtNumero2);
+            this.Controls.Add(this.txtSegundoOperador);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -236,16 +240,16 @@ namespace Ejercicio_Integrador
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtNumero2;
+        private System.Windows.Forms.TextBox txtSegundoOperador;
+        private TextBox txtPrimerOperador;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.GroupBox groupBox;
         private System.Windows.Forms.ComboBox operacion;
-        private System.Windows.Forms.RadioButton radioButtonDecimal;
-        private System.Windows.Forms.RadioButton radioButtonBinario;
+        private System.Windows.Forms.RadioButton rdbDecimal;
+        private System.Windows.Forms.RadioButton rdbBinario;
         private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnLimpiar;
-        private TextBox txtNumero1;
     }
 }
 

@@ -27,16 +27,10 @@ namespace Entidades
 
 
 
-        // Numeracion ni = new Numeracion(10,ESistema.Decimal)
-        //n1.ConvertirA(ESistema.DEcimal)
-   
-
-
-        // god
-        // EL primer numero siempre es binario
         // el parametro sistema representa el sistema al cual yo quiero convertir la instancia 
         public string ConvertirA(ESistema Sistema)
         {
+
             // Coinciden lo sistemas
             if (this.sistema == Sistema)
             {   

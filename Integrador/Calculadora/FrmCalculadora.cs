@@ -26,14 +26,23 @@ namespace Ejercicio_Integrador
         private void FrmCalculadora_Load(object sender, EventArgs e)
         {
             this.operacion.DataSource = new object[] { "",'+','-','/','*'};
+        }
+
+        private void SetResultado() 
+        {
+            //tengo que pasarle el sistema de esta clase raro que rompa
+            Numeracion.ConvertirA(this.sistema);
+            MessageBox.Show(this.resultado.Valor, "Resultado", MessageBoxButtons.OK);
 
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            this.txtNumero1.Clear();
-            this.txtNumero2.Clear();
+            this.txtPrimerOperador.Clear();
+            this.txtSegundoOperador.Clear();
             this.operacion.Text = "";
+
+            resultado = null;
         }
 
         private void btnCerrar_Click(object sender, EventArgs e)
@@ -47,21 +56,41 @@ namespace Ejercicio_Integrador
         }
 
 
-        private void btnOperar_Click(object sender, EventArgs e)
+        private void txtPrimerOperador_TextChanged(object sender, EventArgs e)
         {
-            Operacion Op = new Operacion(new Numeracion(txtNumero1.Text, ESistema.Decimal), new Numeracion (txtNumero2.Text, ESistema.Decimal));
-            // Cambiar esto 
-            if (operacion.Text != null)
-            {
-                char revalido;
-
-                bool res = char.TryParse(operacion.Text, out revalido);
-
-                Numeracion resFinal = Op.Operar(revalido);
-
-                MessageBox.Show(resFinal.Valor);
-            }
+            this.primerOperando = new Numeracion(txtPrimerOperador.Text, ESistema.Decimal);    
         }
 
+        private void txtSegundoOperador_TextChanged(object sender, EventArgs e)
+        {
+            this.segundoOperando = new Numeracion(txtSegundoOperador.Text, ESistema.Decimal);            
+        }
+
+        private void btnOperar_Click(object sender, EventArgs e)
+        {
+            if (!String.IsNullOrEmpty(txtSegundoOperador.Text) || !String.IsNullOrEmpty(txtSegundoOperador.Text))
+            {
+                Operacion Op = new Operacion(primerOperando,segundoOperando);
+
+                // Esta re villero esto
+                if (String.IsNullOrEmpty(operacion.Text))
+                {
+                    this.resultado = (Op.Operar(char.Parse(" ")));
+                }
+                else this.resultado = (Op.Operar(char.Parse(operacion.Text)));
+
+            }
+            else MessageBox.Show("Por favor, complete todos los campos para poder realizar una operación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void rdbDecimal_CheckedChanged(object sender, EventArgs e)
+        {
+            this.sistema = ESistema.Decimal;
+        }
+
+        private void rdbBinario_CheckedChanged(object sender, EventArgs e)
+        {
+            this.sistema = ESistema.Binario;
+        }
     }
 }
