@@ -46,17 +46,22 @@ namespace Entidades
         // Metodos
         public Numeracion Operar(char operador)
         {
-            switch (operador)
+            // Utulizamos la sobrecarga del == para verificar si los sistemas son iguales para poder operar
+            if (primerOperando == segundoOperando)
             {
-                case '/':
-                    return new Numeracion ((this.primerOperando / this.segundoOperando), ESistema.Decimal);
-                case '*':
-                    return new Numeracion((this.primerOperando * this.segundoOperando), ESistema.Decimal);
-                case '-':
-                    return new Numeracion((this.primerOperando - this.segundoOperando), ESistema.Decimal);
-                default:
-                    return new Numeracion((this.primerOperando + this.segundoOperando), ESistema.Decimal);
+                switch (operador)
+                {
+                    case '/':
+                        return new Numeracion((this.primerOperando / this.segundoOperando), ESistema.Decimal);
+                    case '*':
+                        return new Numeracion((this.primerOperando * this.segundoOperando), ESistema.Decimal);
+                    case '-':
+                        return new Numeracion((this.primerOperando - this.segundoOperando), ESistema.Decimal);
+                    default:
+                        return new Numeracion((this.primerOperando + this.segundoOperando), ESistema.Decimal);
+                }
             }
+            else return new Numeracion(double.MinValue, ESistema.Decimal);
         }
     }
 }

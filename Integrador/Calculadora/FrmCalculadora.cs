@@ -31,7 +31,7 @@ namespace Ejercicio_Integrador
         private void SetResultado() 
         {
             //tengo que pasarle el sistema de esta clase raro que rompa
-            Numeracion.ConvertirA(this.sistema);
+            //Numeracion.ConvertirA(this.sistema);
             MessageBox.Show(this.resultado.Valor, "Resultado", MessageBoxButtons.OK);
 
         }
