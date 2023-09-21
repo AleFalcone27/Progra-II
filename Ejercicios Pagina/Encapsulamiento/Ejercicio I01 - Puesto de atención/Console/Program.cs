@@ -1,0 +1,54 @@
+﻿using Entidades;
+
+namespace Console1
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Cliente c1 = new Cliente(1, "Lautaro");
+            Cliente c2 = new Cliente(2, "Mauricio");
+            Cliente c3 = new Cliente(3, "Esteban");
+            Cliente c4 = new Cliente(4, "Alejo");
+            Negocio n1 = new Negocio("Kiosco-24");
+
+            if (n1 + c1)
+            {
+                Console.WriteLine("Se agrego c1 a la cola");
+            }
+
+            if (n1 + c1)
+            {
+                Console.WriteLine("Se agrego c1 a la cola");
+            }
+
+            if (!(n1 + c1))
+            {
+                Console.WriteLine("Cliente c1 ya esta en la cola");
+            }
+
+            if (n1 + c2)
+            {
+                Console.WriteLine("Se agrego c2 a la cola");
+            }
+
+            if (n1 + c3)
+            {
+                Console.WriteLine("Se agrego c3 a la cola");
+            }
+
+
+            while (n1.ClientesPendientes > 1)
+            {
+                bool res = ~n1;
+                Console.WriteLine("Clientes pendientes: {0}", n1.ClientesPendientes);
+            }
+
+
+            Console.ReadKey();
+
+        }
+        
+    }
+}

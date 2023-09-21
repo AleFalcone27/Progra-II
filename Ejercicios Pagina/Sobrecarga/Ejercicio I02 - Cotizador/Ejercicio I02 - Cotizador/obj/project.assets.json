@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador.csproj",
       "projectName": "Ejercicio I02 - Cotizador",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Ejercicio I02 - Cotizador\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj": {
-              "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj"
+            "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj": {
+              "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj"
             }
           }
         }

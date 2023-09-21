@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj",
       "projectName": "Billetes",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\Billetes.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Labo y Prgra II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Sobrecarga\\Ejercicio I02 - Cotizador\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
