@@ -28,8 +28,11 @@ namespace Entidades
 
 
         // el parametro sistema representa el sistema al cual yo quiero convertir la instancia 
+        // Aca hay validaciones de mas porque el sistema simpre va a ser binario
         public string ConvertirA(ESistema Sistema)
         {
+            // Binario a decimal ya lo llamo cuando lo incializo 
+            // aca solo tengo que validar 
 
             // Coinciden lo sistemas
             if (this.sistema == Sistema)
@@ -179,7 +182,6 @@ namespace Entidades
         }
 
         //Sobrecarga de Operadores aritméticos
-
         public static double operator +(Numeracion n1, Numeracion n2)
         {
             return n1.valorNumerico + n2.valorNumerico;

@@ -23,3 +23,17 @@ C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\o
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.dll
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.pdb
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.CopyComplete
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.SuggestedBindingRedirects.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio_Integrador.FrmCalculadora.resources
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio_Integrador.Properties.Resources.resources
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.GenerateResource.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.exe
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.pdb
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\bin\Debug\Ejercicio Integrador.exe.config
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\bin\Debug\Ejercicio Integrador.exe
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\bin\Debug\Ejercicio Integrador.pdb
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\bin\Debug\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Integrador\Calculadora\obj\Debug\Ejercicio Integrador.csproj.CopyComplete
