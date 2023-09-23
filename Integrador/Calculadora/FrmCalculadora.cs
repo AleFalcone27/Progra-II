@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Entidades;
+using System;
 using System.Windows.Forms;
-using Entidades;
 
 namespace Ejercicio_Integrador
 {
@@ -25,15 +18,8 @@ namespace Ejercicio_Integrador
         }
         private void FrmCalculadora_Load(object sender, EventArgs e)
         {
-            this.operacion.DataSource = new object[] { "",'+','-','/','*'};
-        }
-
-        private void SetResultado() 
-        {
-            //tengo que pasarle el sistema de esta clase raro que rompa
-            //Numeracion.ConvertirA(this.sistema);
-            MessageBox.Show(this.resultado.Valor, "Resultado", MessageBoxButtons.OK);
-
+            this.rdbDecimal.Checked = true;
+            this.operacion.DataSource = new object[] { "", "+", "-", "/", "*" };
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -41,44 +27,42 @@ namespace Ejercicio_Integrador
             this.txtPrimerOperador.Clear();
             this.txtSegundoOperador.Clear();
             this.operacion.Text = "";
+            this.txtResultado.Text = "";
 
             resultado = null;
         }
 
+
         private void btnCerrar_Click(object sender, EventArgs e)
         {
-            DialogResult salir = MessageBox.Show("Desea cerrar la calculadora?", "Cierre", MessageBoxButtons.YesNo,MessageBoxIcon.Question);
-
-            if (salir == DialogResult.Yes)
-            {
-                Application.Exit();
-            }
+            this.Close();
+            //Llama tacitamente al evento closing del formulario
         }
-
 
         private void txtPrimerOperador_TextChanged(object sender, EventArgs e)
         {
-            this.primerOperando = new Numeracion(txtPrimerOperador.Text, ESistema.Decimal);    
+            this.primerOperando = new Numeracion(txtPrimerOperador.Text, ESistema.Decimal);
         }
 
         private void txtSegundoOperador_TextChanged(object sender, EventArgs e)
         {
-            this.segundoOperando = new Numeracion(txtSegundoOperador.Text, ESistema.Decimal);            
+            this.segundoOperando = new Numeracion(txtSegundoOperador.Text, ESistema.Decimal);
         }
 
         private void btnOperar_Click(object sender, EventArgs e)
         {
             if (!String.IsNullOrEmpty(txtSegundoOperador.Text) || !String.IsNullOrEmpty(txtSegundoOperador.Text))
             {
-                Operacion Op = new Operacion(primerOperando,segundoOperando);
+                Operacion Op = new Operacion(primerOperando, segundoOperando);
 
-                // Esta re villero esto
+                // Le paso uno infdiferentemente pero podria ser cualquier numero
                 if (String.IsNullOrEmpty(operacion.Text))
                 {
-                    this.resultado = (Op.Operar(char.Parse(" ")));
+                    this.resultado = Op.Operar('1');
                 }
-                else this.resultado = (Op.Operar(char.Parse(operacion.Text)));
+                else this.resultado = Op.Operar(char.Parse(operacion.Text));
 
+                SetResultado();
             }
             else MessageBox.Show("Por favor, complete todos los campos para poder realizar una operación", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
@@ -91,6 +75,26 @@ namespace Ejercicio_Integrador
         private void rdbBinario_CheckedChanged(object sender, EventArgs e)
         {
             this.sistema = ESistema.Binario;
+        }
+
+        // Ver porque carajos no funciona esto El return de la linea 94 no se guarda en ninugn lugar
+        private void SetResultado()
+        {
+            if (this.sistema == ESistema.Binario)
+            {
+                txtResultado.Text = Convert.ToString(this.resultado.ConvertirA(ESistema.Binario));
+            }
+            else txtResultado.Text = resultado.Valor;
+        }
+
+        private void FrmCalculadora_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult salir = MessageBox.Show("Desea cerrar la calculadora?", "Cierre", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+
+            if (salir == DialogResult.No)
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

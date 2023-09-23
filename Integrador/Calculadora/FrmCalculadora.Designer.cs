@@ -45,6 +45,7 @@ namespace Ejercicio_Integrador
             this.btnCerrar = new System.Windows.Forms.Button();
             this.btnLimpiar = new System.Windows.Forms.Button();
             this.txtPrimerOperador = new System.Windows.Forms.TextBox();
+            this.txtResultado = new System.Windows.Forms.Label();
             this.groupBox.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -54,7 +55,7 @@ namespace Ejercicio_Integrador
             this.label1.BackColor = System.Drawing.Color.LightGray;
             this.label1.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
-            this.label1.Location = new System.Drawing.Point(144, 26);
+            this.label1.Location = new System.Drawing.Point(23, 24);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(181, 31);
             this.label1.TabIndex = 0;
@@ -164,7 +165,7 @@ namespace Ejercicio_Integrador
             this.btnOperar.Location = new System.Drawing.Point(12, 243);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(156, 35);
-            this.btnOperar.TabIndex = 5;
+            this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
             this.btnOperar.Click += new System.EventHandler(this.btnOperar_Click);
@@ -175,7 +176,7 @@ namespace Ejercicio_Integrador
             this.btnCerrar.Location = new System.Drawing.Point(320, 242);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(156, 35);
-            this.btnCerrar.TabIndex = 7;
+            this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
@@ -187,7 +188,7 @@ namespace Ejercicio_Integrador
             this.btnLimpiar.Location = new System.Drawing.Point(191, 243);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(105, 35);
-            this.btnLimpiar.TabIndex = 6;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
@@ -201,12 +202,24 @@ namespace Ejercicio_Integrador
             this.txtPrimerOperador.TabIndex = 0;
             this.txtPrimerOperador.TextChanged += new System.EventHandler(this.txtPrimerOperador_TextChanged);
             // 
+            // txtResultado
+            // 
+            this.txtResultado.AutoSize = true;
+            this.txtResultado.BackColor = System.Drawing.Color.LightGray;
+            this.txtResultado.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.txtResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F);
+            this.txtResultado.Location = new System.Drawing.Point(226, 24);
+            this.txtResultado.Name = "txtResultado";
+            this.txtResultado.Size = new System.Drawing.Size(0, 31);
+            this.txtResultado.TabIndex = 8;
+            // 
             // FrmCalculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(500, 291);
+            this.Controls.Add(this.txtResultado);
             this.Controls.Add(this.txtPrimerOperador);
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnCerrar);
@@ -227,6 +240,7 @@ namespace Ejercicio_Integrador
             this.Name = "FrmCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Calculadora Falcone Alejo";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmCalculadora_FormClosing);
             this.Load += new System.EventHandler(this.FrmCalculadora_Load);
             this.groupBox.ResumeLayout(false);
             this.groupBox.PerformLayout();
@@ -250,6 +264,7 @@ namespace Ejercicio_Integrador
         private System.Windows.Forms.Button btnOperar;
         private System.Windows.Forms.Button btnCerrar;
         private System.Windows.Forms.Button btnLimpiar;
+        private Label txtResultado;
     }
 }
 

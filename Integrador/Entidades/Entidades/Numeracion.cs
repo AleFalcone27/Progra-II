@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq.Expressions;
 using System.Net.Http.Headers;
+using System.Net.Sockets;
 
 namespace Entidades
 {
@@ -26,33 +27,26 @@ namespace Entidades
         }
 
 
-
         // el parametro sistema representa el sistema al cual yo quiero convertir la instancia 
-        // Aca hay validaciones de mas porque el sistema simpre va a ser binario
+        // Aca hay validaciones de mas porque el sistema simpre va a ser decimales
+
+
+        //this.sistema(decimal).convertirA(binario)
+
         public string ConvertirA(ESistema Sistema)
         {
-            // Binario a decimal ya lo llamo cuando lo incializo 
-            // aca solo tengo que validar 
-
-            // Coinciden lo sistemas
-            if (this.sistema == Sistema)
-            {   
-                return this.Valor;          
-            }
-            else 
+            //this.sistema != Esistema.Decimal
+ 
+            if (Sistema == ESistema.Binario)
             {
-                // Si no coinciden:
-                if (ESistema.Decimal == Sistema)
-                {
-                    // Si es decimal y lo queres convertir a binario
-                    return this.BinarioADecimal(this.Valor).ToString();
-                }
-                else 
-                {
-                    // Si es binario y lo queres convertir a decimal
-                    return this.DecimalABinario(this.Valor);
-                }
+                // Si es decimal y lo queres convertir a binario
+                return this.DecimalABinario(this.Valor);
             }
+            else
+            {
+                return this.Valor;
+            }
+
         }
 
         /// <summary>
