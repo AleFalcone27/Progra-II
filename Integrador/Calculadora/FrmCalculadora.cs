@@ -82,7 +82,7 @@ namespace Ejercicio_Integrador
         {
             if (this.sistema == ESistema.Binario)
             {
-                txtResultado.Text = Convert.ToString(this.resultado.ConvertirA(ESistema.Binario));
+                txtResultado.Text = (this.resultado.ConvertirA(ESistema.Binario).ToString());
             }
             else txtResultado.Text = resultado.Valor;
         }
