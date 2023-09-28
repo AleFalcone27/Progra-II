@@ -1,0 +1,5 @@
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Ejercicios Pagina\Herencia\Ejercicio I01 - El viajar es un placer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Ejercicios Pagina\Herencia\Ejercicio I01 - El viajar es un placer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Ejercicios Pagina\Herencia\Ejercicio I01 - El viajar es un placer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Ejercicios Pagina\Herencia\Ejercicio I01 - El viajar es un placer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\Progra-II\Ejercicios Pagina\Herencia\Ejercicio I01 - El viajar es un placer\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
