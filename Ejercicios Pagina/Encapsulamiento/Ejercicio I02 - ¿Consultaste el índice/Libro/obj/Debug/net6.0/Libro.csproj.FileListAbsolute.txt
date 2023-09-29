@@ -1,0 +1,12 @@
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\bin\Debug\net6.0\Libro.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\bin\Debug\net6.0\Libro.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\bin\Debug\net6.0\Libro.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\refint\Libro.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\Libro.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\Progra-II\Ejercicios Pagina\Encapsulamiento\Ejercicio I02 - ¿Consultaste el índice\Libro\obj\Debug\net6.0\ref\Libro.dll
