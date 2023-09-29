@@ -8,7 +8,6 @@ namespace Centralita
 {
     public class Local : Llamada
     {
-
         protected float costo;
 
         public Local(Llamada llamada,float costo)
@@ -17,11 +16,16 @@ namespace Centralita
             this.costo = costo;
         }
 
+        public Local(string origen,float duracion,string destino,float costo)
+            : base(duracion, destino ,origen)
+        {
+               this.costo = costo;
+        }
+
         public float CostoLlamada
         {
             get
             {
-                //Hay que ahacer una operacion aca
                 return CalcularCosto();
             }
         }
@@ -29,7 +33,7 @@ namespace Centralita
 
         private float CalcularCosto()
         {
-            return float.NaN;
+            return this.duracion * this.costo;
         }
 
 
@@ -37,13 +41,8 @@ namespace Centralita
         {
             StringBuilder sb = new StringBuilder(); 
             sb.AppendLine(base.Mostrar());
-            sb.AppendLine($"{this.costo}");
+            sb.AppendLine($"{this.CostoLlamada}");
             return sb.ToString();
-
         }
-
-
-
-
     }
 }

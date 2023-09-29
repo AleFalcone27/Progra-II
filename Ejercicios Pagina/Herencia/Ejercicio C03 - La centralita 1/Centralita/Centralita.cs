@@ -15,12 +15,11 @@ namespace Centralita
         }
     
 
-
         float GanaciasPorLocal
         {
             get
             {
-                return float.NaN;
+                return CalcularGanacia(ETipoLlamada.Local);
             }
         }
 
@@ -28,7 +27,8 @@ namespace Centralita
         {
             get
             {
-                return float.NaN;
+
+                return CalcularGanacia(ETipoLlamada.Provincial);
             }
         }
 
@@ -36,7 +36,7 @@ namespace Centralita
         {
             get
             {
-                return float.NaN;
+                return CalcularGanacia(ETipoLlamada.Todas);
             }
         }
 
@@ -52,10 +52,22 @@ namespace Centralita
         
         private float CalcularGanacia(ETipoLlamada tipo)
         {
-            //Switch
-            return float.NaN;
-        }
+            switch (tipo)
+            {
+                case ETipoLlamada.Local:
+                    return 1;
 
+                case ETipoLlamada.Provincial:
+                    return 1;
+
+                case ETipoLlamada.Todas:
+                    return 1;
+
+                default:
+                    return 0;
+            }
+
+        }
 
     }
 }

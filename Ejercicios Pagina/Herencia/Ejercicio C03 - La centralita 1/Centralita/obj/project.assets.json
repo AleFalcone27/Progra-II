@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita Episodio I\\Centralita\\Centralita.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita 1\\Centralita\\Centralita.csproj",
       "projectName": "Centralita",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita Episodio I\\Centralita\\Centralita.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita 1\\Centralita\\Centralita.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita Episodio I\\Centralita\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\Progra-II\\Ejercicios Pagina\\Herencia\\Ejercicio C03 - La centralita 1\\Centralita\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
