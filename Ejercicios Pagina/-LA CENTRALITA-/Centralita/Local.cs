@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace CentralitA
 {
     public class Local : Llamada
     {
@@ -22,7 +22,7 @@ namespace Centralita
                this.costo = costo;
         }
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -37,13 +37,24 @@ namespace Centralita
         }
 
 
-        public string Mostrar()
+        protected override string Mostrar()
         {
             StringBuilder sb = new StringBuilder(); 
             sb.Append(base.Mostrar());
             sb.AppendLine($"Costo Llamada: {this.CostoLlamada:C2}");
             sb.AppendLine($"========================");
             return sb.ToString();
+        }
+
+
+        public override bool Equals(object obj)
+        {
+            return obj is Local;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

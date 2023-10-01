@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace CentralitA
 {
-    public class Llamada
+    public abstract class Llamada
     {
         protected float duracion;
         protected string nroDestino;
@@ -18,6 +18,14 @@ namespace Centralita
             this.nroDestino = nroDestino;
             this.nroOrigen = nroOrigen;
         }
+
+        // Para las propiedaes abstracteas debemos determinar si sera set o get o ambas 
+
+        public abstract float CostoLlamada
+        {
+            get;
+        }
+
 
 
         public float Duracion
@@ -44,7 +52,7 @@ namespace Centralita
             }
         }
 
-        public string Mostrar()
+        protected virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine($"========================");
@@ -56,9 +64,18 @@ namespace Centralita
 
         public int OrdenarPorDuracion(Llamada llamada1, Llamada llamada2)
         {
-            // desarrollar
+            // desarrollar 
             return 1;
         }
+
+
+        //public static bool operator ==(Llamada l1, Llamada l2)
+        //{
+        //    // Voy a tener que volver aca
+        //    return true;
+        //}
+
+
 
     }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Centralita
+namespace CentralitA
 {
     public class Provincial : Llamada
     {
@@ -25,7 +25,7 @@ namespace Centralita
             this.franjaHoraria = miFranja;
         }
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -39,8 +39,6 @@ namespace Centralita
             return Duracion * (int)this.franjaHoraria;
         }
 
-
-
         public string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
@@ -51,6 +49,15 @@ namespace Centralita
             return sb.ToString();
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Provincial;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
+        }
 
     }
 }

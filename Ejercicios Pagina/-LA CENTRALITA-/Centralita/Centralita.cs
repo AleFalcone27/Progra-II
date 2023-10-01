@@ -1,20 +1,21 @@
-﻿using System.Text;
+﻿using System.Data.Common;
+using System.Text;
 
-namespace Centralita
+namespace CentralitA
 {
-    public class CentralitA
+    public class Centralita
     {
         public List<Llamada> listaDeLlamadas;
         protected string razonSocial;
 
 
 
-        public CentralitA()
+        public Centralita()
         {
             this.listaDeLlamadas = new List<Llamada>();
 
         }
-        public CentralitA(string razonSocial)
+        public Centralita(string razonSocial)
             : this()
         {
             this.razonSocial = razonSocial;
@@ -88,7 +89,18 @@ namespace Centralita
         }
 
 
-        public string Mostrar()
+        private void AgregarLlamada(Llamada nuevaLlamada)
+        {
+            listaDeLlamadas.Add(nuevaLlamada);
+        }
+
+
+        public override string ToString()
+        {
+            return Mostrar(); 
+        }
+
+        private string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendLine("================");
@@ -99,6 +111,13 @@ namespace Centralita
             sb.AppendLine($"Ganancia total: {this.GanaciasPorTotal}");
             return sb.ToString();
         }
+
+
+        public static bool operator ==(Centralita c, Llamada llamada)
+        {
+
+        }
+
 
     }
 
